@@ -1,0 +1,153 @@
+# Python related files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+env/
+venv/
+ENV/
+.VENV/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+
+# PyInstaller
+dist/
+build/
+*.spec
+
+# Django
+*.log
+*.pot
+*.pyc
+*.so
+local_settings.py
+
+# Flask/Django local env files
+instance/
+.webassets-cache
+
+# Scrapy
+.scrapy
+
+# Sphinx documentation
+docs/_build/
+
+# Pytest
+.cache
+
+# MyPy
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# Coverage reports
+htmlcov/
+.coverage
+.coverage.*
+
+# Test/Temp files
+*.tmp
+*.temp
+*.out
+
+# macOS specific
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Editor/IDE specific
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# Python Package files
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.installed.cfg
+pip-wheel-metadata/
+
+# Node.js related files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional npm cache directory
+.npm
+
+# Grunt intermediate storage (https://gruntjs.com/creating-plugins#storing-task-files)
+.grunt
+
+# Bower dependency directory (https://bower.io/)
+bower_components/
+
+# TypeScript cache
+*.tsbuildinfo
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Next.js build output
+.next/
+out/
+
+# Nuxt.js build output
+.nuxt/
+dist/
+
+# Gatsby files
+.cache/
+public/
+
+# vuepress build output
+.vuepress/dist
+
+# Serverless directories
+.serverless/
+
+# Coverage directories
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
+*.log
+
+# Production build outputs
+dist/
+build/
+
+# Docker related files
+Dockerfile
+.dockerignore
+
+# Environment variables
+.env
+.env.* 
+dataset/fashion-mnist_test.csv
+dataset/fashion-mnist_train.csv
+dataset/t10k-images-idx3-ubyte
+dataset/t10k-labels-idx1-ubyte
+dataset/train-images-idx3-ubyte
+dataset/train-labels-idx1-ubyte
+input/coat.jpg
+input/shoes.png
